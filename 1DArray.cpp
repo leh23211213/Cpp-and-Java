@@ -4,13 +4,13 @@
 
 using namespace std;
 #define size 50
+
 void inputArray(int Array[], int amoutOfArray);
 void outputArray(int Array[], int amoutOfArray);
-bool isPrime(int number);
 void sortAcsendingArray(int Array[], int amoutOfArray);
-int insertElementIntoArray(int Array[], int &amoutOfArray, int insertValue,
+void insertElementIntoArray(int Array[], int &amoutOfArray, int insertValue,
                            int insertPosition);
-int deleteElementFromArray(int Array[], int &amoutOfArray, int deletePosition);
+void deleteElementFromArray(int Array[], int &amoutOfArray, int deletePosition);
 int main() {
   system("cls");
   int amoutOfArray, Array[size];
@@ -121,15 +121,7 @@ void outputArray(int Array[], int amoutOfArray) {
     cout << Array[i] << " \t ";
   cout << endl;
 }
-bool isPrime(int number) {
-  if (number < 2)
-    return false;
-  for (int i = 2; i <= int(sqrt(number)); i++) {
-    if (number % i == 0)
-      return false;
-  }
-  return true;
-}
+
 void sortAcsendingArray(int Array[], int amoutOfArray) {
   for (int i = 0; i < amoutOfArray; i++)
     for (int j = i + 1; j <= amoutOfArray; j++) {
@@ -137,14 +129,14 @@ void sortAcsendingArray(int Array[], int amoutOfArray) {
         swap(Array[i], Array[j]);
     }
 }
-int insertElementIntoArray(int Array[], int &amoutOfArray, int insertValue,
+void insertElementIntoArray(int Array[], int &amoutOfArray, int insertValue,
                            int insertPosition) {
   amoutOfArray++;
   for (int j = amoutOfArray; j >= insertPosition; j--)
     swap(Array[j + 1], Array[j]);
   Array[insertPosition] = insertValue;
 }
-int deleteElementFromArray(int Array[], int &amoutOfArray, int deletePosition) {
+void deleteElementFromArray(int Array[], int &amoutOfArray, int deletePosition) {
   for (int j = deletePosition - 1; j <= amoutOfArray; j++)
     swap(Array[j], Array[j + 1]);
   amoutOfArray--;
