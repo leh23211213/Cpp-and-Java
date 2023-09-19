@@ -1,1 +1,1 @@
-# Study C++
+# My resources to learn C++
