@@ -1,0 +1,15 @@
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\AlgorithmAndStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\AlgorithmAndStructure.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\AlgorithmAndStructure.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\AlgorithmAndStructure.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\AlgorithmAndStructure.sourcelink.json
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\bin\Debug\net8.0\AlgorithmAndStructure.exe
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\bin\Debug\net8.0\AlgorithmAndStructure.deps.json
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\bin\Debug\net8.0\AlgorithmAndStructure.runtimeconfig.json
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\bin\Debug\net8.0\AlgorithmAndStructure.dll
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\bin\Debug\net8.0\AlgorithmAndStructure.pdb
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\AlgorithmAndStructure.dll
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\refint\AlgorithmAndStructure.dll
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\AlgorithmAndStructure.pdb
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\AlgorithmAndStructure.genruntimeconfig.cache
+C:\Users\lenovo\Desktop\CloneFile\Fundamental\Csharp\AlgorithmAndStructure\obj\Debug\net8.0\ref\AlgorithmAndStructure.dll
