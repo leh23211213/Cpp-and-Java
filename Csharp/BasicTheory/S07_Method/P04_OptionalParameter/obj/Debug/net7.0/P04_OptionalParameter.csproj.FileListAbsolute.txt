@@ -1,0 +1,14 @@
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\bin\Debug\net7.0\P04_OptionalParameter.exe
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\bin\Debug\net7.0\P04_OptionalParameter.deps.json
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\bin\Debug\net7.0\P04_OptionalParameter.runtimeconfig.json
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\bin\Debug\net7.0\P04_OptionalParameter.dll
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\bin\Debug\net7.0\P04_OptionalParameter.pdb
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\P04_OptionalParameter.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\P04_OptionalParameter.AssemblyInfoInputs.cache
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\P04_OptionalParameter.AssemblyInfo.cs
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\P04_OptionalParameter.csproj.CoreCompileInputs.cache
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\P04_OptionalParameter.dll
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\refint\P04_OptionalParameter.dll
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\P04_OptionalParameter.pdb
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\P04_OptionalParameter.genruntimeconfig.cache
+E:\VSCode\Github\Csharp\S07_Method\P04_OptionalParameter\obj\Debug\net7.0\ref\P04_OptionalParameter.dll

@@ -1,0 +1,14 @@
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\bin\Debug\net7.0\PartialClass1.exe
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\bin\Debug\net7.0\PartialClass1.deps.json
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\bin\Debug\net7.0\PartialClass1.runtimeconfig.json
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\bin\Debug\net7.0\PartialClass1.dll
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\bin\Debug\net7.0\PartialClass1.pdb
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\PartialClass1.GeneratedMSBuildEditorConfig.editorconfig
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\PartialClass1.AssemblyInfoInputs.cache
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\PartialClass1.AssemblyInfo.cs
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\PartialClass1.csproj.CoreCompileInputs.cache
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\PartialClass1.dll
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\refint\PartialClass1.dll
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\PartialClass1.pdb
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\PartialClass1.genruntimeconfig.cache
+E:\VSCode\Github\Csharp\MucLuc\S13_PartialType\PartialClass1\obj\Debug\net7.0\ref\PartialClass1.dll
