@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Desktop\\CloneFile\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj": {}
+    "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Desktop\\CloneFile\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj": {
+    "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\CloneFile\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj",
+        "projectUniqueName": "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj",
         "projectName": "AlgorithmAndStructure",
-        "projectPath": "C:\\Users\\lenovo\\Desktop\\CloneFile\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj",
+        "projectPath": "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Desktop\\CloneFile\\Fundamental\\Csharp\\AlgorithmAndStructure\\obj\\",
+        "outputPath": "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
