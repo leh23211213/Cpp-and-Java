@@ -1,5 +1,3 @@
-
-
 public class Node<T> where T : IComparable
 {
     public T Data { get; set; }
@@ -103,9 +101,8 @@ public class UserLinkedList<T> where T : IComparable
             currenNode = currenNode.Next;
         }
     }
-
-
 }
+
 // public class Program
 // {
 //     public static void Main(string[] args)

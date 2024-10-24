@@ -131,10 +131,13 @@ Created lists shall be a: 2->3->20->5->10->15 */
 	push(&a, 3);
 	push(&a, 2);
 
+	cout << "Not Sorted Linked List is: \n";
+	printList(a);
+
 	/* Sort the above created Linked List */
 	MergeSort(&a);
 
-	cout << "Sorted Linked List is: \n";
+	cout << "\nSorted Linked List is: \n";
 	printList(a);
 
 	return 0;

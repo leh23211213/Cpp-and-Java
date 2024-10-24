@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj": {}
+    "E:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj": {}
   },
   "projects": {
-    "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj": {
+    "E:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj",
+        "projectUniqueName": "E:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj",
         "projectName": "AlgorithmAndStructure",
-        "projectPath": "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj",
+        "projectPath": "E:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\AlgorithmAndStructure.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "e:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\obj\\",
+        "outputPath": "E:\\IT\\VSCode\\Github\\Fundamental\\Csharp\\AlgorithmAndStructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

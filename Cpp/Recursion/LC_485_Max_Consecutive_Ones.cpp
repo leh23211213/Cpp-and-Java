@@ -25,6 +25,5 @@ int main() {
   for (int i = 0; i < (sizeof(arr) / sizeof(int)); i++) {
     a.push_back(arr[i]);
   }
-
   std::cout << findMaxConsecutiveOnes(a);
 }

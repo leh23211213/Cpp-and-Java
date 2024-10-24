@@ -83,9 +83,5 @@ namespace AlgorithmAndStructure
                 }
             }
         }
-        // public static void Main()
-        // {
-        //     jagedArray();
-        // }
     }
 }

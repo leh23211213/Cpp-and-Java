@@ -1,14 +1,14 @@
-using System.Xml;
-
+using System;
+using System.Collections.Generic;
 namespace AlgorithmAndStructure
 {
-    class Program
+    public class Stack
     {
         /// <summary>
         /// use List create Stack
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        class ListStack<T>
+        public class ListStack<T>
         {
             private int _topIndex;
             private readonly List<T> _list;
@@ -48,25 +48,49 @@ namespace AlgorithmAndStructure
         /// use Linked List create Stack
         /// </summary>
         /// <typeparam name="T"></typeparam>
-
-        class LinkedListStack<T>
+        public class LinkedListStack<T>
         {
             private readonly LinkedList<T> _list;
-        }
-        static void Main(string[] args)
-        {
-            Console.Title = "Custom stack with list";
-            var stack = new ListStack<string>();
-            stack.Push("H");
-            stack.Push("L");
-            stack.Push("O");
-            stack.Push("N");
-            while (!stack.isEmpty)
+            public LinkedListStack() => _list = new LinkedList<T>();
+            public int Count => _list.Count;
+            public bool isEmpty => _list.Count == 0;
+            public void Push(T item) => _list.AddFirst(item);
+            public T Pop()
             {
-                var word = stack.Pop();
-                Console.Write($"{word}");
+                T temp = _list.First.Value;
+                _list.RemoveFirst();
+                return temp;
             }
-            Console.WriteLine($"\nStack count:{stack.Count}");
+            public void Clear() => _list.Clear();
+            public T Peek() => _list.First.Value;
+
+        }
+
+        public bool IsValid(string s = "([]{})")
+        {
+            char[] tokens = s.ToCharArray();
+            Stack<char> operators = new Stack<char>();
+            int i = 0;
+            while (i < tokens.Length)
+            {
+                if (tokens[i] == '{' || tokens[i] == '(' || tokens[i] == '[')
+                {
+                    operators.Push(tokens[i]);
+                }
+                else if (tokens[i] == '}' || tokens[i] == ')' || tokens[i] == ']')
+                {
+                    if (operators.Peek() == '{' || operators.Peek() == '(' || operators.Peek() == '[')
+                    {
+                        operators.Pop();
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                i++;
+            }
+            return true;
         }
     }
 }

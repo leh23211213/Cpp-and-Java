@@ -34,6 +34,7 @@ Node *mergeTwoLists(Node *list1, Node *list2) {
     return list2;
   }
 }
+
 void _21_mergeTwoListsSolution() {
   Node *a1 = createNode(1);
   Node *a2 = createNode(2);
@@ -54,7 +55,7 @@ Node *reverseList(Node *head) {
   if (head == NULL)
     return head;
   Node *next = head->next;
-  Node newNext =  ;
+  // Node newNext =  ;
    //return newHead;
 }
 void _206_reverseList() {

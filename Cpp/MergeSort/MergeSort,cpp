@@ -1,0 +1,123 @@
+using System;
+
+/* Link list node */
+class Node {
+    public int data;
+    public Node next;
+}
+
+class LinkedList {
+    Node head;
+
+    /* function prototypes */
+    Node SortedMerge(Node a, Node b) {
+        Node result = null;
+
+        /* Base cases */
+        if (a == null)
+            return b;
+        else if (b == null)
+            return a;
+
+        /* Pick either a or b, and recur */
+        if (a.data <= b.data) {
+            result = a;
+            result.next = SortedMerge(a.next, b);
+        } else {
+            result = b;
+            result.next = SortedMerge(a, b.next);
+        }
+        return result;
+    }
+
+    void FrontBackSplit(Node source, out Node frontRef, out Node backRef) {
+        Node fast;
+        Node slow;
+        slow = source;
+        fast = source.next;
+
+        /* Advance 'fast' two nodes, and advance 'slow' one node */
+        while (fast != null) {
+            fast = fast.next;
+            if (fast != null) {
+                slow = slow.next;
+                fast = fast.next;
+            }
+        }
+
+        /* 'slow' is before the midpoint in the list, so split it in two at that point. */
+        frontRef = source;
+        backRef = slow.next;
+        slow.next = null;
+    }
+
+    public void MergeSort(ref Node headRef) {
+        Node head = headRef;
+        Node a, b;
+
+        /* Base case -- length 0 or 1 */
+        if ((head == null) || (head.next == null)) {
+            return;
+        }
+
+        /* Split head into 'a' and 'b' sublists */
+        FrontBackSplit(head, out a, out b);
+
+        /* Recursively sort the sublists */
+        MergeSort(ref a);
+        MergeSort(ref b);
+
+        /* answer = merge the two sorted lists together */
+        headRef = SortedMerge(a, b);
+    }
+
+    /* Function to print nodes in a given linked list */
+    public void PrintList(Node node) {
+        while (node != null) {
+            Console.Write(node.data + " ");
+            node = node.next;
+        }
+    }
+
+    /* Function to insert a node at the beginning of the linked list */
+    public void Push(ref Node head_ref, int new_data) {
+        /* allocate node */
+        Node new_node = new Node();
+
+        /* put in the data */
+        new_node.data = new_data;
+
+        /* link the old list of the new node */
+        new_node.next = head_ref;
+
+        /* move the head to point to the new node */
+        head_ref = new_node;
+    }
+
+    /* Driver program to test above functions*/
+    public static void Main() {
+        LinkedList list = new LinkedList();
+
+        /* Start with the empty list */
+        Node res = null;
+        Node a = null;
+
+        /* Let us create a unsorted linked lists to test the functions 
+        Created lists shall be a: 2->3->20->5->10->15 */
+        list.Push(ref a, 15);
+        list.Push(ref a, 10);
+        list.Push(ref a, 5);
+        list.Push(ref a, 20);
+        list.Push(ref a, 3);
+        list.Push(ref a, 2);
+
+        Console.WriteLine("Not Sorted Linked List is:");
+        list.PrintList(a);
+
+        /* Sort the above created Linked List */
+        list.MergeSort(ref a);
+
+        Console.WriteLine("\nSorted Linked List is:");
+        list.PrintList(a);
+    }
+}
